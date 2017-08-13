@@ -1,0 +1,11 @@
+DEPENDENCIES
+  my_motd
+    path: .
+    metadata: true
+
+GRAPH
+  chef_handler (2.1.1)
+  motd (0.6.4)
+    chef_handler (>= 0.0.0)
+  my_motd (0.2.2)
+    motd (>= 0.0.0)
