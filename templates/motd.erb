@@ -7,6 +7,8 @@ Memory: <%= node['memory']['total'] %>
 Uptime: <%= node['uptime'] %>
 Kernel: <%= node['kernel']['release'] %>
 
+Last Chef Run: <%= Time.now.rfc2822 %>
+
 =============================================
 
 
