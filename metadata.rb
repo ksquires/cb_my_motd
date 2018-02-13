@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures my_motd'
 long_description 'Installs/Configures my_motd'
-version '0.2.3'
+version '0.2.4'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 supports 'centos'
 
