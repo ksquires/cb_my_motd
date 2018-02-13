@@ -2,7 +2,7 @@
 
 Hostname: <%= node['hostname'] %>
 Platform: <%= node['platform'] %> <%= node['platform_version'] %>
-CPUs: <%= node['cpu']['total'] %> @ <%= node['processor']['all_records']['max_speed'] %> 
+CPUs: <%= node['cpu']['total'] %> @ <%= node['dmi']['processor']['max_speed'] %> 
 Memory: <%= node['memory']['total'] %>
 Uptime: <%= node['uptime'] %>
 Kernel: <%= node['kernel']['release'] %>
