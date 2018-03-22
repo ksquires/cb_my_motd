@@ -6,6 +6,7 @@ CPUs: <%= node['cpu']['total'] %> @ <%= node['dmi']['processor']['max_speed'] %>
 Memory: <%= node['memory']['total'] %>
 Uptime: <%= node['uptime'] %>
 Kernel: <%= node['kernel']['release'] %>
+Virtualization: <%= node['virtualization']['system'] %>
 
 Last Chef Run: <%= Time.now.rfc2822 %>
 
